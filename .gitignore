@@ -1,57 +1,28 @@
-# IDE and Editor files
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
+# Python Installation & Installers
+python310/
+*.exe
 
-# OS files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-*.egg-info/
-dist/
-build/
-
-# Virtual environments
+# Virtual Environments
 venv/
 env/
-ENV/
+.env/
+__pycache__/
+*.pyc
+*.pyo
 
-# Stable Diffusion WebUI specific
-stable-diffusion-webui/__pycache__/
-stable-diffusion-webui/*.ckpt
-stable-diffusion-webui/*.safetensors
-stable-diffusion-webui/*.pth
-stable-diffusion-webui/.DS_Store
-stable-diffusion-webui/repositories/
-stable-diffusion-webui/venv/
-stable-diffusion-webui/tmp/
-stable-diffusion-webui/models/**/*
-stable-diffusion-webui/outputs/
-stable-diffusion-webui/config.json
-stable-diffusion-webui/ui-config.json
-stable-diffusion-webui/embeddings/
-stable-diffusion-webui/extensions/
-stable-diffusion-webui/cache/
-stable-diffusion-webui/.idea
-stable-diffusion-webui/.vscode
-stable-diffusion-webui/node_modules/
-stable-diffusion-webui/package-lock.json
-stable-diffusion-webui/test/test_outputs/
-stable-diffusion-webui/test/stdout.txt
-stable-diffusion-webui/test/stderr.txt
+# Massive AI Model Files (Do not upload these to GitHub!)
+**/*.ckpt
+**/*.pt
+**/*.pth
+**/*.safetensors
+**/*.bin
+**/*.onnx
 
-# Project info (if contains sensitive data)
-Prject_info/
+# Generated Outputs & Temporary Files
+**/outputs/
+**/log/
+**/tmp/
 
-# Logs
-*.log
-
+# OS Generated Files
+.DS_Store
+Thumbs.db
